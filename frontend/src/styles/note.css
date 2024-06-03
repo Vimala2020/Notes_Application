@@ -1,0 +1,50 @@
+.note-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+  }
+  
+  .note-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+  }
+  
+  .note-item p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .note-item button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .button {
+    background-color: #61dafb;
+    color: white;
+  }
+  
+  .button-danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  .show-description-btn {
+    background-color: #4caf50; /* Green background */
+    color: white;
+  }
+  
+  .hide-description-btn {
+    background-color: #ff9800; /* Orange background */
+    color: white;
+  }

@@ -1,0 +1,37 @@
+.login-container, .signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
