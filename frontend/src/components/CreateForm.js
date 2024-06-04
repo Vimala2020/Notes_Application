@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import useNotesStore from "../stores/notesStores";
-//import '../style/modal.css';
+
 
 export default function CreateForm() {
   const { createNote, updateCreateFormField, createForm } = useNotesStore();
