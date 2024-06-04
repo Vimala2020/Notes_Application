@@ -1,8 +1,11 @@
 {
+  "homepage": "http://Vimala2020.github.io/Notes_Application",
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "nodemon Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
